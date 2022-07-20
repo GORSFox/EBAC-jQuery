@@ -1,2 +1,2 @@
-# Trabalhos-de-Conclus-o---jQuery
+# Trabalho-de-Conclusao **jQuery
 Exercício que faz parte do curso JavaScript - jQuery
