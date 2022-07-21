@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./vendor/owl/css/owl.css">
     <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
     <link rel="stylesheet" href="jquery/css/style.css">
+    <link rel="stylesheet" href="jquery/vendor/jQueryUi/jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery\vendor\jQueryUi\jquery-ui.theme.min.css">
     <title>jQuery</title>
 </head>
 <body>
-    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="" alt=""></a>
@@ -73,7 +74,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src= "assets\images\item-02.jpg" alt="Item 2">
@@ -84,7 +85,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src="assets/images/item-03.jpg" alt="Item 3">
@@ -95,7 +96,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src="assets/images/item-04.jpg" alt="Item 4">
@@ -106,7 +107,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src="assets/images/item-05.jpg" alt="Item 5">
@@ -117,7 +118,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src="assets/images/item-06.jpg" alt="Item 6">
@@ -128,7 +129,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src="assets/images/item-10.jpg" alt="Item 7">
@@ -139,7 +140,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src="assets/images/item-08.jpg" alt="Item 8">
@@ -150,7 +151,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                         <div class="featured-item">
                             <img src="assets/images/item-09.jpg" alt="Item 9">
@@ -161,7 +162,7 @@
                             </a>
                             <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
                                 Saiba Mais
-                              </button>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -208,6 +209,35 @@
                 <div class="col-md-12">
                     <div class="copyright-text">
                         <p>WebStore &copy; Todos os direitos reservados
+                            <div id="dialog-form" title="Create new user">
+                                <p class="validateTips"></p>
+                               
+                                <form>
+                                  <fieldset>
+                                    <label for="name">Nome</label>
+                                    <input type="text" name="name" id="name" value="" class="text ui-widget-content ui-corner-all">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all">
+                                      <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                                    <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+                                  </fieldset>
+                                </form>
+                              </div>
+                               
+                               
+                              <div id="users-contain" class="ui-widget">
+                                
+                                <h1></h1>
+                                <table id="users" class="ui-widget ui-widget-content">
+                                  <thead>
+                                    <tr class="ui-widget-header ">
+                                      
+                                    </tr>
+                                  
+                              </div>
+                              <button id="create-user">Enviar</button>
+                               
+                               
                         </div>
                     </div>
                 </div>
@@ -217,6 +247,9 @@
         <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
         <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="jquery/vendor/owl/js/owl.carousel.min.js"></script>
+        <script src="jquery\vendor\jQueryUi\jquery-ui.min.js"></script>        
         <script src="jquery/js/custom.js"></script>
+        
     </body>
     </html>
+    
